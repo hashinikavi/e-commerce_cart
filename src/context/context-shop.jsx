@@ -14,4 +14,3 @@ export const ShopContextProvider = (props) => {
   const [cartItems, setCartItems] = useState({});
   return <ShopContext.Provider>{props.children}</ShopContext.Provider>;
 };
-git 
